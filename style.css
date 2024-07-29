@@ -73,6 +73,9 @@ header {
     display: flex;
     text-align: center;
 }
+main {
+    margin-bottom: 200px;
+}
 h2 {
     color: #000;
     font-family: KCC-Hanbit;
@@ -82,8 +85,17 @@ h2 {
     line-height: normal;
     margin: 0;
 }
+h4 {
+    color: #303030;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
 
-a, h6 {
+a {
     font-family: KCC-Hanbit;
     font-size: 18px;
     font-style: normal;
@@ -94,12 +106,12 @@ a, h6 {
 p {
     color: #000;
     font-family: Pretendard;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin: 0;
-    margin-top: 14px;
+    text-align: left;
 }
 
 .container {
@@ -195,6 +207,7 @@ p {
     align-items: center;
     border-radius: 13px;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 #top {
     background-color: #FFADE3;
@@ -213,4 +226,48 @@ p {
     font-weight: 600;
     line-height: normal;
     border: 2px solid #FFADE3;
+}
+
+.container-l-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 861px;
+    height: 145px;
+}
+.comment {
+    width: 711px;
+}
+.comment > h4 {
+    margin-bottom: 4px;
+    text-align: left;
+}
+.comment > p {
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: 1px;
+}
+.button > h6 {
+    padding: 6px 13px 5px 13px;
+    border-radius: 20px;
+    background-color: #FFADE3;
+    color: #fff;
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+.img {
+    display: flex;
+}
+.img > img {
+    border-radius: 13px;
+    width: 150px;
+    height: 145px;
 }
