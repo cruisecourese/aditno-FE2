@@ -1,3 +1,4 @@
+/*Font section*/
 @font-face {
     font-family: 'KCC-Hanbit';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
@@ -11,6 +12,8 @@
     font-weight: 400;
     font-style: normal;
 }
+/**/
+/*Basic tag*/
 header {
     width: 100%;
     height: 60px;
@@ -18,64 +21,10 @@ header {
     background: #FFF;
 }
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.nav-login {
-    display: flex;
-    align-items: center;
-}
-.nav, .nav2 {
-    display: flex;
-    gap: 40px;
-}
-.nav2 a {
-    font-family: Pretendard;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-    color: #000;
-}
-.nav a {
-    text-decoration: none;
-    color: #000;
-}
-
-.logo img {
-    width: 110px;
-    height: 30.53px;
-    margin-top: 15px;
-    margin-left: 81px;
-}
-
-.login a {
-    display: inline-flex;
-    padding: 12px 37px 11px 37px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 13px;
-    background: #FFADE3;
-    text-decoration: none;
-    color: #fff;
-    margin-left: 53px;
-    margin-right: 36px;
-}
-.lost-find {
-    display: flex;
-    text-align: center;
-}
 main {
     margin-bottom: 200px;
 }
+
 h2 {
     color: #000;
     font-family: KCC-Hanbit;
@@ -85,6 +34,7 @@ h2 {
     line-height: normal;
     margin: 0;
 }
+
 h4 {
     color: #303030;
     font-family: Pretendard;
@@ -113,10 +63,151 @@ p {
     margin: 0;
     text-align: left;
 }
+/**/
+/*Class*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
+.nav-login {
+    display: flex;
+    align-items: center;
+}
+
+.nav, .nav2 {
+    display: flex;
+    gap: 40px;
+}
+
+.nav2 a {
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo img {
+    width: 110px;
+    height: 30.53px;
+    margin-top: 15px;
+    margin-left: 81px;
+}
+
+.login a {
+    display: inline-flex;
+    padding: 12px 37px 11px 37px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    background: #FFADE3;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 53px;
+    margin-right: 36px;
+}
+
+.lost-find {
+    display: flex;
+    text-align: center;
+}
+
+.div-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 87px;
+    gap: 20px;
+}
+
+.div-top a {
+    display: inline-flex;
+    padding: 13px 129px 12px 129px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.container-l-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 861px;
+    height: 145px;
+}
+
+.comment {
+    width: 711px;
+}
+
+.comment > h4 {
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.comment > p {
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: 1px;
+}
+
+.button > h6 {
+    padding: 6px 13px 5px 13px;
+    border-radius: 20px;
+    background-color: #FFADE3;
+    color: #fff;
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.img {
+    display: flex;
+}
+
+.img > img {
+    border-radius: 13px;
+    width: 150px;
+    height: 145px;
+}
+
+.img > p {
+    color: #585858;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 150px;
+}
+/*
 .container {
     position: relative;
 }
+
 .man {
     margin-top: 268px;
     margin-bottom: 338px;
@@ -124,6 +215,7 @@ p {
     text-align: left;
     height: 158px;
 }
+
 .man img {
     width: 350px;
     height: 350px;
@@ -132,6 +224,7 @@ p {
     left: 305px;
     top: -219px;
 }
+
 .girl {
     margin-left: 596px;
     margin-bottom: 334px;
@@ -140,6 +233,7 @@ p {
     top: -200px;
     height: 313px;
 }
+
 .girl img {
     width: 250px;
     height: 250px;
@@ -148,13 +242,16 @@ p {
     left: -250px;
     top: 195px;
 }
+
 .girl div {
     width: 427px;
     height: 160px;
 }
+
 .girl p {
     margin-top: 16px;
 }
+
 .star {
     margin-left: 390px;
     margin-bottom: 344px;
@@ -162,6 +259,7 @@ p {
     transform: translateX(30px);
     height: 177px;
 }
+
 .star img {
     width: 250px;
     height: 250px;
@@ -170,6 +268,7 @@ p {
     top: -219px;
     left: 440px;
 }
+
 .bot {
     margin-left: 468px;
     margin-bottom: 285px;
@@ -183,32 +282,22 @@ p {
     margin-top: 21px;
     text-align: center;
 }
+*/
+/**/
+/*Id*/
 #bot-white {
     background-color: #FFADE3;
     color: #fff;
     padding: 19px 24px 18px 23px;
 }
+
 #bot-black {
     border: 2px solid #FFADE3;
     background-color: #fff;
     color: #000;
     padding: 19px 42px 18px 42px;
 }
-.div-top {
-    display: flex;
-    justify-content: center;
-    margin-top: 87px;
-    gap: 20px;
-}
-.div-top a {
-    display: inline-flex;
-    padding: 13px 129px 12px 129px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 13px;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
+
 #top {
     background-color: #FFADE3;
     color: #FFF;
@@ -218,6 +307,7 @@ p {
     font-weight: 600;
     line-height: normal;
 }
+
 #top-black {
     color: #FFADE3;
     font-family: Pretendard;
@@ -227,47 +317,4 @@ p {
     line-height: normal;
     border: 2px solid #FFADE3;
 }
-
-.container-l-f {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px auto;
-    width: 861px;
-    height: 145px;
-}
-.comment {
-    width: 711px;
-}
-.comment > h4 {
-    margin-bottom: 4px;
-    text-align: left;
-}
-.comment > p {
-    margin-bottom: 20px;
-}
-.buttons {
-    display: flex;
-    gap: 5px;
-    margin-top: 1px;
-}
-.button > h6 {
-    padding: 6px 13px 5px 13px;
-    border-radius: 20px;
-    background-color: #FFADE3;
-    color: #fff;
-    font-family: Pretendard;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0;
-}
-.img {
-    display: flex;
-}
-.img > img {
-    border-radius: 13px;
-    width: 150px;
-    height: 145px;
-}
+/**/
