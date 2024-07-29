@@ -45,14 +45,6 @@ h4 {
     margin: 0;
 }
 
-a {
-    font-family: KCC-Hanbit;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 p {
     color: #000;
     font-family: Pretendard;
@@ -62,6 +54,14 @@ p {
     line-height: normal;
     margin: 0;
     text-align: left;
+}
+
+a {
+    font-family: KCC-Hanbit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 /**/
 /*Class*/
@@ -80,34 +80,27 @@ p {
     align-items: center;
 }
 
-.nav, .nav2 {
+.nav {
     display: flex;
     gap: 40px;
 }
 
-.nav2 a {
+.nav h6 {
     font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration: none;
+
     color: #000;
+    margin: 0;
 }
 
-.nav a {
+.nav > a {
     text-decoration: none;
-    color: #000;
 }
 
-.logo img {
-    width: 110px;
-    height: 30.53px;
-    margin-top: 15px;
-    margin-left: 81px;
-}
-
-.login a {
+.login > a {
     display: inline-flex;
     padding: 12px 37px 11px 37px;
     justify-content: center;
@@ -120,26 +113,16 @@ p {
     margin-right: 36px;
 }
 
+.logo > img {
+    width: 110px;
+    height: 30.53px;
+    margin-top: 15px;
+    margin-left: 81px;
+}
+
 .lost-find {
     display: flex;
     text-align: center;
-}
-
-.div-top {
-    display: flex;
-    justify-content: center;
-    margin-top: 87px;
-    gap: 20px;
-}
-
-.div-top a {
-    display: inline-flex;
-    padding: 13px 129px 12px 129px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 13px;
-    text-decoration: none;
-    margin-bottom: 20px;
 }
 
 .container-l-f {
@@ -151,26 +134,34 @@ p {
     height: 145px;
 }
 
-.comment {
+.move-b {
+    display: flex;
+    justify-content: center;
+    margin-top: 87px;
+    gap: 20px;
+}
+
+
+.info {
     width: 711px;
 }
 
-.comment > h4 {
+.info > h4 {
     margin-bottom: 4px;
     text-align: left;
 }
 
-.comment > p {
+.info > p {
     margin-bottom: 20px;
 }
 
-.buttons {
+.tags {
     display: flex;
     gap: 5px;
     margin-top: 1px;
 }
 
-.button > h6 {
+.tag > h6 {
     padding: 6px 13px 5px 13px;
     border-radius: 20px;
     background-color: #FFADE3;
@@ -183,17 +174,17 @@ p {
     margin: 0;
 }
 
-.img {
+.info-img {
     display: flex;
 }
 
-.img > img {
+.info-img > img {
     border-radius: 13px;
     width: 150px;
     height: 145px;
 }
 
-.img > p {
+.info-img > p {
     color: #585858;
     text-align: center;
     font-family: Pretendard;
@@ -285,6 +276,37 @@ p {
 */
 /**/
 /*Id*/
+
+#move-b-p > a {
+    background-color: #FFADE3;
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#move-b-b > a {
+    color: #FFADE3;
+    font-family: Pretendard;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 2px solid #FFADE3;
+}
+
+#move-b-p > a, #move-b-b > a {
+    display: inline-flex;
+    padding: 13px 129px 12px 129px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+/*
 #bot-white {
     background-color: #FFADE3;
     color: #fff;
@@ -297,24 +319,5 @@ p {
     color: #000;
     padding: 19px 42px 18px 42px;
 }
-
-#top {
-    background-color: #FFADE3;
-    color: #FFF;
-    font-family: Pretendard;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-#top-black {
-    color: #FFADE3;
-    font-family: Pretendard;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    border: 2px solid #FFADE3;
-}
+*/
 /**/
