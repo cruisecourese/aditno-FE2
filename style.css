@@ -48,6 +48,11 @@ h4 {
     font-weight: 600;
 }
 
+h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
 p {
     color: #000;
     font-size: 18px;
@@ -261,17 +266,10 @@ a {
 #move-b-p > a {
     background-color: #FFADE3;
     color: #FFF;
-    font-family: Pretendard;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
 }
 
 #move-b-b > a {
     color: #FFADE3;
-    font-size: 22px;
-    font-weight: 600;
     border: 2px solid #FFADE3;
 }
 
@@ -281,7 +279,6 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 13px;
-    text-decoration: none;
     margin-bottom: 20px;
 }
 /*
