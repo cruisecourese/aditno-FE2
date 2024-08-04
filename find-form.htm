@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>찾았다면</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="/aditno-FE2/images/logo.png" alt="Aditno">
+            </div>
+            <div class="nav-login">
+                <nav class="nav">
+                    <a href="#"><h6>찾았다면/내꺼라면</h6></a>
+                    <a href="#"><h6>여기있어요</h6></a>
+                </nav>
+                <div class="login">
+                    <a href="#"><h6>로그인</h6></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="move-b">
+            <div id="move-b-p"><a href="#"><h5>분실물을 찾았어요.</h5></a></div>
+            <div id="move-b-b"><a href="lost-form.htm"><h5>분실물을 잃어버렸어요.</h5></a></div>
+        </div>
+        <form action="#"><!--프론트 구현이므로 눈에 보이는 페이지 위주로 구현함.-->
+            <div class="form">
+                <h3><span class="pink">1. </span>제목을 입력해주세요.</h3>
+                <input type="text" placeholder="ex) SRC 1층에서 에어팟을 잃어버렸어요.">
+            </div>
+            <div class="form">
+                <h3><span class="pink">2. </span>소제목을 입력해주세요.</h3>
+                <input type="text" placeholder="ex) 에어팟을 찾았는데 포켓몬 피카츄 스티커 붙여져있어요.">
+            </div>
+            <div class="form">
+                <h3><span class="pink">3. </span>키워드를 입력해주세요.</h3>
+                <input type="text" placeholder="ex) 에어팟 / 흰색 / 스티커">
+                <div id="tags"></div>
+            </div>
+            <div class="form">
+                <h3><span class="pink">4. </span>세부 설명을 입력해주세요.</h3>
+                <input type="text" placeholder="ex) 에어팟을 src1층에서 주웠는데 피카츄스티커 붙여져있고 등등">   
+            </div>
+            <div class="form">
+                <h3><span class="pink">5. </span>사진을 첨부해주세요.</h3>
+                <input type="file" placeholder="<br>이미지를 드래그 앤 드롭 또는 직접 업로드 해 주세요.">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
