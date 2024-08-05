@@ -56,15 +56,38 @@ h4 {
 .pink {
     color: #FFADE3;
 }
-.form {
+form {
+    margin-top: 90px;
     margin-left: 50%;
     transform: translateX(-50%);
+    width: 600px;
+}
+.form {
     display: flex;
     flex-direction: column;
     gap: 26px;
     margin-bottom: 80px;
 }
-
+.textbox {   
+    width: 600px;
+    height: 30px;
+    border: none;
+    border-bottom: solid 2px #FFADE3;
+    color: #000;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+::placeholder {
+    color: #5E5E5E;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 h5 {
     font-size: 22px;
     font-weight: 600;
@@ -402,6 +425,34 @@ a {
 
 #img-tag > div {
     margin: 116px 0 0 131px;
+}
+#drop-area > p {
+    color: var(--Gray-600, #6C757D);
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+#drop-area {
+    display: inline-flex;
+    padding: 66px 105px 66px 106px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px dashed #FFADE3;
+    background: var(--White, #FFF);
+    flex-direction: column;
+    gap: 16px;
+}
+#drop-area:hover {
+    background-color: #eee;
+}
+#image-preview {
+    margin: 10px auto;
+    max-width: 100%;
+    max-height: 200px;
+    display: none;
 }
 /*
 #bot-white {
