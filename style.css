@@ -295,6 +295,23 @@ a {
     font-weight: 300;
     width: 150px;
 }
+
+.comment {
+    margin: 20px 70px;
+    border-radius: 25px 25px 25px 0px;
+    background: #FFBFE9;
+    display: flex;
+    width: 291px;
+    height: 43px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 /*
 .container {
     position: relative;
@@ -403,7 +420,7 @@ a {
     margin-left: 70px;
 }
 
-#more, #moreinfo {
+#more, #moreinfo, #comment > p {
     font-weight: 500;
     margin-left: 70px;
 }
@@ -426,6 +443,7 @@ a {
 #img-tag > div {
     margin: 116px 0 0 131px;
 }
+
 #drop-area > p {
     color: var(--Gray-600, #6C757D);
     font-family: Pretendard;
@@ -434,6 +452,7 @@ a {
     font-weight: 400;
     line-height: 150%;
 }
+
 #drop-area {
     display: inline-flex;
     padding: 66px 105px 66px 106px;
@@ -445,14 +464,44 @@ a {
     flex-direction: column;
     gap: 16px;
 }
+
 #drop-area:hover {
     background-color: #eee;
 }
+
 #image-preview {
     margin: 10px auto;
     max-width: 100%;
     max-height: 200px;
     display: none;
+}
+
+#comment {
+    margin-top: 90px;
+}
+
+#comment > ::placeholder {
+    color: #9A9A9A;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#comment > input {
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 600px;
+    height: 20px;
+}
+
+#comInput {
+    border: none;
+}
+
+#m-lost {
+    height: 800px;
 }
 /*
 #bot-white {
