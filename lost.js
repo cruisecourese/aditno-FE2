@@ -2,39 +2,39 @@ document.addEventListener('DOMContentLoaded', function() {
     let temp = [
         {
             id: "1",
-            title: "에어팟 프로 오른쪽을 찾았어요.",
-            info: "에어팟 프로 2세대 오른쪽을 찾았어요.",
+            title: "에어팟 프로 오른쪽을 잃어버렸어요.",
+            info: "에어팟 프로 2세대 오른쪽을 잃어버렸어요.",
             tags: ["1층", "에어팟", "2학년 4반 신희성"],
             image: "./images/temp.jpg",
             imageText: "Related image",
-            moreinfo: "SRC 1층에서 에어팟 오른쪽 하나를 찾았어요. 흰색이에요 흰색<br>주인이신 분 알려주세요! 제가 3번에 넣어놓았어여영아시겠죠??"
+            moreinfo: "SRC 1층에서 에어팟 오른쪽 하나를 잃어버렸어요 흰색이에요"
         },
         {
             id: "2",
-            title: "에어팟 프로 오른쪽을 찾았어요.",
-            info: "에어팟 프로 2세대 오른쪽을 찾았어요.",
+            title: "에어팟 프로 오른쪽을 잃어버렸어요.",
+            info: "에어팟 프로 2세대 오른쪽을 잃어버렸어요.",
             tags: ["1층", "에어팟", "2학년 4반 신희성"],
             image: "./images/temp.jpg",
             imageText: "Related image",
-            moreinfo: "SRC 1층에서 에어팟 오른쪽 하나를 찾았어요. 흰색이에요 흰색<br>주인이신 분 알려주세요! 제가 3번에 넣어놓았어여영아시겠죠??"
+            moreinfo: "SRC 1층에서 에어팟 오른쪽 하나를 잃어버렸어요 흰색이에요"
         },
         {
             id: "3",
-            title: "에어팟 프로 오른쪽을 찾았어요.",
-            info: "에어팟 프로 2세대 오른쪽을 찾았어요.",
+            title: "에어팟 프로 오른쪽을 잃어버렸어요.",
+            info: "에어팟 프로 2세대 오른쪽을 잃어버렸어요.",
             tags: ["1층", "에어팟", "2학년 4반 신희성"],
             image: "./images/temp.jpg",
             imageText: "Related image",
-            moreinfo: "SRC 1층에서 에어팟 오른쪽 하나를 찾았어요. 흰색이에요 흰색<br>주인이신 분 알려주세요! 제가 3번에 넣어놓았어여영아시겠죠??"
+            moreinfo: "SRC 1층에서 에어팟 오른쪽 하나를 잃어버렸어요 흰색이에요"
         },
         {
             id: "4",
-            title: "에어팟 프로 오른쪽을 찾았어요.",
-            info: "에어팟 프로 2세대 오른쪽을 찾았어요.",
+            title: "에어팟 프로 오른쪽을 잃어버렸어요.",
+            info: "에어팟 프로 2세대 오른쪽을 잃어버렸어요.",
             tags: ["1층", "에어팟", "2학년 4반 신희성"],
             image: "./images/temp.jpg",
             imageText: "Related image",
-            moreinfo: "SRC 1층에서 에어팟 오른쪽 하나를 찾았어요. 흰색이에요 흰색<br>주인이신 분 알려주세요! 제가 3번에 넣어놓았어여영아시겠죠??"
+            moreinfo: "SRC 1층에서 에어팟 오른쪽 하나를 잃어버렸어요 흰색이에요"
         }
     ];
 
